@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { HeaderComponent } from './header/header.component';
 import { StravaComponent } from './strava/strava.component';
+import { GithubComponent } from './github/github.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { StravaComponent } from './strava/strava.component';
     WidgetsComponent,
     HeaderComponent,
     StravaComponent,
+    GithubComponent,
   ],
   imports: [
     BrowserModule,

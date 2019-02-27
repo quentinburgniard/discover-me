@@ -1,3 +1,3 @@
-export class GitHub {
+export class Github {
     repos: number
 }
