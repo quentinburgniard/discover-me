@@ -14,7 +14,7 @@ export class StravaService {
   constructor(private http: HttpClient) { }
 
   getStrava(): Observable<Strava> {
-    const url = 'http://localhost/strava'
+    const url = 'https://api.quentinburgniard.com/strava'
     return this.http.get<Strava>(url)
   }
 }

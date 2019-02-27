@@ -12,7 +12,7 @@ export class GithubService {
   constructor(private http: HttpClient) { }
 
   getGithub(): Observable<Github> {
-    const url = 'http://localhost/github'
+    const url = 'https://api.quentinburgniard.com/github'
     return this.http.get<Github>(url)
   }
 }
